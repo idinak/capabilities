@@ -8,3 +8,4 @@ With continuous integration, developers frequently commit to a shared repository
 Continuous deployment (CD): automates the process of releasing an application to production. There are few manual gates in the development pipeline stage just before production, so CD relies heavily on well-designed test automation. As a result, a developer’s change to a cloud application could go live within minutes of writing it if it passes all automated tests. CD makes it much easier
 to continuously receive and incorporate user feedback.
 
+There are many tools on CI/CD (Jenkins, TeamCity, CircleCI, Bamboo etc.). We have expertise on jenkins and tekton.
