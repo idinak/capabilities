@@ -3,3 +3,8 @@ changes back to a shared branch more frequently. Merged code changes are validat
 and integration tests—to ensure the changes work. If testing discovers a conflict between new and existing code, CI makes it easier and faster to fix those bugs
 
 With continuous integration, developers frequently commit to a shared repository using a version control system such as Git. Prior to each commit, developers may choose to run local unit tests on their code as an extra verification layer before integrating. A continuous integration service automatically builds and runs unit tests on the new code changes to immediately surface any errors.
+
+
+Continuous deployment (CD): automates the process of releasing an application to production. There are few manual gates in the development pipeline stage just before production, so CD relies heavily on well-designed test automation. As a result, a developer’s change to a cloud application could go live within minutes of writing it if it passes all automated tests. CD makes it much easier
+to continuously receive and incorporate user feedback.
+
