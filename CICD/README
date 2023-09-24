@@ -1,0 +1,7 @@
+Continuous integration (CI): helps developers rapidly verify functionality and merge their code
+changes back to a shared branch more frequently. Merged code changes are validated by automatically building the application and running different levels of automated testing—typically unit
+and integration tests—to ensure the changes work. If testing discovers a conflict between new and existing code, CI makes it easier and faster to fix those bugs
+
+With continuous integration, developers frequently commit to a shared repository using a version control system such as Git. Prior to each commit, developers may choose to run local unit tests on their code as an extra verification layer before integrating. A continuous integration service automatically builds and runs unit tests on the new code changes to immediately surface any errors.
+
+![continuous integration Process](CI-process.png)
